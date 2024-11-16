@@ -1,4 +1,4 @@
-body{
+.bodyPrincipe{
     display: grid;
     grid-template-columns: repeat(4,1fr) 1.5fr;
     grid-template-areas: 
@@ -60,9 +60,19 @@ main{
         background-color: rgb(157, 108, 1);
     
 }
-img{
+.image{
     max-width: 350px;
     margin:auto
+}
+
+.imagekb2{
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+    margin-left: 100px;
 }
 
 figure{
@@ -78,4 +88,11 @@ footer{
     text-align: end;
     grid-area: footer;
     height: 100px;
+}
+
+.paragraphe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
 }
